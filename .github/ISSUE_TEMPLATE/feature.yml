@@ -1,0 +1,29 @@
+name: Feature
+description: New capability for a Zygig product
+title: "[feat] "
+labels: ["enhancement", "triage"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product / repo
+      options: [AICommander, AppClearCheck, GameSlappyClappy, AppAmicableFamily, WebZYGIG, ToolsAppDeployment, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Whose job is blocked and why.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+    validations:
+      required: true
+  - type: textarea
+    id: out
+    attributes:
+      label: Explicitly out of scope
