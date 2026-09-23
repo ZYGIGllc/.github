@@ -1,13 +1,13 @@
 name: Feature
-description: New capability for a Zygig product
+description: New capability for a public Zygig project
 title: "[feat] "
 labels: ["enhancement", "triage"]
 body:
   - type: dropdown
     id: product
     attributes:
-      label: Product / repo
-      options: [AICommander, AppClearCheck, GameSlappyClappy, AppAmicableFamily, WebZYGIG, ToolsAppDeployment, Other]
+      label: Project
+      options: [ToolsFree, Other public Zygig project]
     validations:
       required: true
   - type: textarea

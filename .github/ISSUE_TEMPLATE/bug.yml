@@ -1,20 +1,20 @@
 name: Bug
-description: Something broken in a Zygig app or the shipping hub
+description: Something broken in a public Zygig project
 title: "[bug] "
 labels: ["bug", "triage"]
 body:
   - type: dropdown
     id: product
     attributes:
-      label: Product / repo
-      options: [AICommander, AppClearCheck, GameSlappyClappy, AppAmicableFamily, WebZYGIG, ToolsAppDeployment, Other]
+      label: Project
+      options: [ToolsFree, Other public Zygig project]
     validations:
       required: true
   - type: textarea
     id: what
     attributes:
       label: What happened
-      description: Expected vs actual, including OS / app version if relevant.
+      description: Expected vs actual, including browser / OS if relevant.
     validations:
       required: true
   - type: textarea
