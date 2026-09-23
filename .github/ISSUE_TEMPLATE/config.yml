@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Zygig App Studio
-    url: https://github.com/ZYGIGllc
-    about: Product and shipping questions for Zygig apps.
+  - name: Zygig website
+    url: https://www.zygig.com
+    about: Product questions for Zygig (not for private repo access).

@@ -1,27 +1,11 @@
 # ZYGIG
 
-We build consumer mobile apps for iOS and Android.
+We build consumer apps for iOS and the web.
 
-## Product workstreams
+**Site:** [zygig.com](https://www.zygig.com)
 
-| Product | Repository |
-| --- | --- |
-| AICommander | [ZYGIGllc/aicommander](https://github.com/ZYGIGllc/aicommander) |
-| AppClearCheck | [ZYGIGllc/AppClearCheck](https://github.com/ZYGIGllc/AppClearCheck) |
-| GameSlappyClappy | [ZYGIGllc/GameSlappyClappy](https://github.com/ZYGIGllc/GameSlappyClappy) |
-| AppAmicableFamily | [ZYGIGllc/AppAmicableFamily](https://github.com/ZYGIGllc/AppAmicableFamily) |
-| WebZYGIG | [ZYGIGllc/WebZYGIG](https://github.com/ZYGIGllc/WebZYGIG) |
+## Public projects
 
-## Shared deployment hub
+- [ToolsFree](https://github.com/ZYGIGllc/ToolsFree) — free, client-side browser tools (no sign-up, runs locally)
 
-All App Store + Google Play shipping automation lives in **[ToolsAppDeployment](https://github.com/ZYGIGllc/ToolsAppDeployment)**.
-
-New apps: create from the **[template-app](https://github.com/ZYGIGllc/template-app)** template repository.
-
-## Org teams
-
-| Team | Role |
-| --- | --- |
-| `admins` | Break-glass / org admin |
-| `engineering` | Product app write access |
-| `release` | Store shipping + ToolsAppDeployment |
+Product and shipping repositories are **private** to the organization and are not listed here.
