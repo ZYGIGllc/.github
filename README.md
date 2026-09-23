@@ -1,2 +1,3 @@
 # .github
-Default Community Files for the ZYGIG organization on GitHub
+
+Org-wide community health files and the public Zygig profile README for the [ZYGIGllc](https://github.com/ZYGIGllc) organization.

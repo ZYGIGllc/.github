@@ -1,0 +1,30 @@
+name: Bug
+description: Something broken in a Zygig app or the shipping hub
+title: "[bug] "
+labels: ["bug", "triage"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product / repo
+      options: [AICommander, AppClearCheck, GameSlappyClappy, AppAmicableFamily, WebZYGIG, ToolsAppDeployment, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Expected vs actual, including OS / app version if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      render: shell
